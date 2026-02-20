@@ -21,6 +21,8 @@ project:
   # Table of contents — chapters added here as they are written
   toc:
     - file: index.md
+    - file: chapters/ch01-revolution.md
+    - file: chapters/ch02-building-images.md
 
 site:
   title: "Docker Essentials for DevOps"
