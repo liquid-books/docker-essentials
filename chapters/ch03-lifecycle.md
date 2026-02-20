@@ -5,6 +5,8 @@ short_title: "3: Managing Containers"
 description: "A deep dive into the container lifecycle (run, stop, start, restart, exec, logs), environment variables, networking, and volumes."
 label: ch03-lifecycle
 tags: [docker, containers, lifecycle, networking, storage]
+exports:
+  - format: pdf
 ---
 
 # Chapter 3: Managing Containers

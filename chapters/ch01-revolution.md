@@ -1,6 +1,21 @@
 # Chapter 1: The Container Revolution
 
-![The Container Revolution](../images/ch01-infographic.png)
+---
+short_title: Revolution
+description: Understanding the shift from VMs to Containers and the "Matrix of Doom".
+label: ch01-revolution
+exports:
+  - format: pdf
+---
+
+:::{figure} ../images/ch01-infographic.png
+:label: fig-ch01-revolution
+:alt: The Container Revolution Infographic
+:width: 80%
+:align: center
+
+The evolution from physical servers and VMs to process isolation with Docker.
+:::
 
 In the early days of computing, we ran applications directly on physical servers. This led to "The Matrix of Doom": trying to manage dozens of different software stacks across dozens of different hardware configurations. Every move, every upgrade, and every new deployment was a risk.
 

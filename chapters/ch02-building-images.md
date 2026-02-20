@@ -1,6 +1,21 @@
 # Chapter 2: Building Your First Image
 
-![Building Images](../images/ch02-infographic.png)
+---
+short_title: Building Images
+description: Learning Dockerfile instructions, image layers, and the build context.
+label: ch02-building-images
+exports:
+  - format: pdf
+---
+
+:::{figure} ../images/ch02-infographic.png
+:label: fig-ch02-building-images
+:alt: Building Docker Images Infographic
+:width: 80%
+:align: center
+
+The Docker build process: from Dockerfile and Build Context to a layered Image.
+:::
 
 In Docker, everything starts with an **Image**. If a container is a running instance of a process, the image is the template, the blueprint, and the snapshot of the filesystem required to run that process.
 

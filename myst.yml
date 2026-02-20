@@ -21,10 +21,10 @@ project:
   # Table of contents — chapters added here as they are written
   toc:
     - file: index.md
-    - file: chapters/ch03-lifecycle.md
-    - file: chapters/ch04-compose.md
     - file: chapters/ch01-revolution.md
     - file: chapters/ch02-building-images.md
+    - file: chapters/ch03-lifecycle.md
+    - file: chapters/ch04-compose.md
 
 site:
   title: "Docker Essentials for DevOps"
@@ -33,3 +33,9 @@ site:
     logo_url: "/"
   parts:
     primary_sidebar_footer: primary-sidebar-footer.md
+  template: book-theme
+  # Export configuration for PDF downloads
+  exports:
+    - format: pdf
+      template: my-pdf-template # Optional
+      output: docker-essentials.pdf

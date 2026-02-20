@@ -5,6 +5,8 @@ short_title: "4: Docker Compose"
 description: "An in-depth look at multi-container applications, docker-compose.yml syntax, service dependencies, scaling, and development workflows."
 label: ch04-compose
 tags: [docker, compose, orchestration, devops, multi-container]
+exports:
+  - format: pdf
 ---
 
 # Chapter 4: Orchestrating with Docker Compose
