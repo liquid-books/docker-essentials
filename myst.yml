@@ -1,0 +1,31 @@
+# MyST project configuration
+# Docs: https://mystmd.org/guide/configuration
+version: 1
+project:
+  title: "Docker Essentials for DevOps"
+  authors:
+    - name: Dr. Ernesto Lee
+  # Book-level attributes
+  keywords: []
+  license: CC-BY-4.0
+  open_access: true
+  github: https://github.com/liquid-books/docker-essentials
+  # Numbering
+  numbering:
+    heading_1: true
+    heading_2: true
+    heading_3: true
+    figure: true
+    table: true
+    equation: true
+  # Table of contents — chapters added here as they are written
+  toc:
+    - file: index.md
+
+site:
+  title: "Docker Essentials for DevOps"
+  options:
+    logo_text: "Docker Essentials for DevOps"
+    logo_url: "/"
+  parts:
+    primary_sidebar_footer: primary-sidebar-footer.md
